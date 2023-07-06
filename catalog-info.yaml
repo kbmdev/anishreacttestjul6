@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "anishreacttestjul6"
+  description: "anishreacttestjul6"
+  links:
+    - title: Website
+      # Change the template in the future to collect the domain name mtk8s.io
+      # parameters.properties.name(type: string,default: 'world!')
+      url: https://anishreacttestjul6.mtk8s.io
+  annotations:
+    argocd/app-name: "anishreacttestjul6"
+    sonarqube.org/project-key: "anishreacttestjul6"
+    jenkins.io/job-full-name: "anishreacttestjul6_App_Pipeline"
+    github.com/project-slug: kbmdev/anishreacttestjul6
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "anishreacttestjul6"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/team-policy"
+  system: "system:default/policy-setup"
